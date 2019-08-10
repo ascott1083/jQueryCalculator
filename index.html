@@ -72,13 +72,30 @@
 
 <script type="text/javascript">
 
-if (button.value==
+let firstNumber = ""
+let secondNumber = ""
+let result = ""
+let operator = ""
+let isCalculated = false;
+let isOperated = false;
+
+$("#button-equal").on('click', function(){
+ if(isCalculated = true){
+
+ } else {
+   if(isOperated = true){
+     secondNumber=""
+   } else {
+     firstNumber = ""
+   }
+ }
+});
 
 $(document).ready(function() {
 
 // Your code here...
-$("<button>").on("click", function(){
-
+$(".btn").on("click", function(){
+console.log(this.value);
 });
 });
 
